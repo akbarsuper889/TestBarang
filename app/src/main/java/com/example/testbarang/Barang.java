@@ -1,5 +1,9 @@
 package com.example.testbarang;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
 import java.io.Serializable;
 
 public class Barang implements Serializable {
@@ -7,7 +11,6 @@ public class Barang implements Serializable {
     private String nama;
 
     public Barang(){
-
     }
 
     public String getKode(){
